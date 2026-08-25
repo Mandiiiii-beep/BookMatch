@@ -1,0 +1,92 @@
+[
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "fantasy",
+    "description": "A novel about infinite possibilities and second chances",
+    "keywords": ["fantasy", "parallel worlds", "choices", "meaning", "life"],
+    "rating": 4.2,
+    "newBookPrice": 14.99
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": "mystery",
+    "description": "A gripping mystery thriller about a missing woman",
+    "keywords": ["detective", "conspiracy", "crime", "secrets", "investigation"],
+    "rating": 4.1,
+    "newBookPrice": 12.99
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "scifi",
+    "description": "Epic science fiction saga on a desert planet",
+    "keywords": ["space", "politics", "adventure", "power", "ecology"],
+    "rating": 4.3,
+    "newBookPrice": 16.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "romance",
+    "description": "Classic romance between Elizabeth and Mr. Darcy",
+    "keywords": ["love", "romance", "relationship", "period", "society"],
+    "rating": 4.5,
+    "newBookPrice": 10.99
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "author": "Thomas Harris",
+    "genre": "thriller",
+    "description": "Psychological thriller about an FBI agent and a serial killer",
+    "keywords": ["suspense", "thriller", "crime", "psychological", "danger"],
+    "rating": 4.4,
+    "newBookPrice": 13.99
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "fantasy",
+    "description": "A young wizard discovers his magical heritage",
+    "keywords": ["magic", "wizards", "adventure", "school", "fantasy", "wonder"],
+    "rating": 4.6,
+    "newBookPrice": 11.99
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "genre": "mystery",
+    "description": "A psychological mystery about a missing wife",
+    "keywords": ["mystery", "twist", "marriage", "lies", "suspense", "secrets"],
+    "rating": 4.0,
+    "newBookPrice": 13.99
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "genre": "scifi",
+    "description": "A man stranded on Mars must survive alone",
+    "keywords": ["space", "survival", "Mars", "science", "problem-solving", "ingenuity"],
+    "rating": 4.4,
+    "newBookPrice": 14.99
+  },
+  {
+    "title": "The Notebook",
+    "author": "Nicholas Sparks",
+    "genre": "romance",
+    "description": "A passionate love story across decades",
+    "keywords": ["love", "romance", "emotion", "destiny", "passion", "memory"],
+    "rating": 4.1,
+    "newBookPrice": 12.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "scifi",
+    "description": "A dystopian novel about totalitarianism",
+    "keywords": ["dystopian", "future", "control", "society", "technology", "freedom"],
+    "rating": 4.2,
+    "newBookPrice": 13.99
+  }
+]
