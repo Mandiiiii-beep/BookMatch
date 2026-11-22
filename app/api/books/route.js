@@ -5,6 +5,8 @@ export async function GET(request) {
     const { db } = await connectToDatabase();
     const { searchParams } = new URL(request.url);
     const genre = searchParams.get('genre');
+    const requestedLimit = Number.parseInt(searchParams.get('limit') || '50', 10);
+    const limit = Number.isFinite(requestedLimit) ? Math.min(Math.max(requestedLimit, 1), 100) : 50;
 
     let query = {};
     if (genre) {
@@ -14,7 +16,8 @@ export async function GET(request) {
     const books = await db
       .collection('books')
       .find(query)
-      .limit(50)
+      .sort({ _id: -1 })
+      .limit(limit)
       .toArray();
 
     return Response.json({ success: true, data: books });
