@@ -1,25 +1,21 @@
-import { AuthProvider } from '@/lib/AuthContext';
-import Header from '@/components/Header';
-import './globals.css';
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'BookMatch - Find Your Next Favorite Book',
-  description: 'Discover personalized book recommendations and find used copies at great prices',
+  title: "BookMatch | Discover books & find used copies",
+  description:
+    "Browse books by genre and find used copies at great prices. A small Next.js showcase project powered by Open Library.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning>
-        <AuthProvider>
-          <Header />
-          {children}
-        </AuthProvider>
+      <body className="flex min-h-screen flex-col" suppressHydrationWarning>
+        <Header />
+        <div className="flex-1">{children}</div>
+        <Footer />
       </body>
     </html>
   );
